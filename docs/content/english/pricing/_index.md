@@ -1,53 +1,66 @@
 ---
 title: "Pricing"
-subtitle: ""
+subtitle: "Promitor is free to use, but comes without any support.<br/>Need support? Then you can sponsor Tom Kerkhove!"
 # meta description
 description: "This is meta description"
 draft: false
 
 basic:
-  name : "Basic Plan"
-  price: "$49"
+  name : "OSS"
+  price: "$0"
   price_per : "month"
-  info : "Best For Small Individuals"
+  info : "Get Promitor without support"
   services:
-  - "Express Service"
-  - "Customs Clearance"
-  - "Time-Critical Services"
+  - "Automatic scraping of Azure Monitor"
+  - "Automatic resource discovery in Azure"
   button:
     enable : true
     label : "Get started for free"
     link : "#"
     
 professional:
-  name : "Professional Plan"
-  price: "$49"
+  name : "Basic Support"
+  price: "$500"
   price_per : "month"
-  info : "Best For Professionals"
+  info : "Best For Basic Support"
   services:
-  - "Express Service"
-  - "Customs Clearance"
-  - "Time-Critical Services"
-  - "Cloud Service"
-  - "Best Dashboard"
+  - "Automatic scraping of Azure Monitor"
+  - "Automatic resource discovery in Azure"
+  - "Up to 2 hours of support per month"
   button:
     enable : true
-    label : "Get started for free"
-    link : "#"
+    label : "Sponsor Tom Kerkhove"
+    link : "https://github.com/sponsors/tomkerkhove"
     
 business:
-  name : "Business Plan"
-  price: "$49"
+  name : "Premium Support"
+  price: "$1000"
   price_per : "month"
-  info : "Best For Large Individuals"
+  info : "Best For Professional Support"
   services:
-  - "Express Service"
-  - "Customs Clearance"
-  - "Time-Critical Services"
+  - "Automatic scraping of Azure Monitor"
+  - "Automatic resource discovery in Azure"
+  - "Up to 4 hours of support per month"
+  - "Roadmap Advisor for Promitor via quarterly meetings"
   button:
     enable : true
-    label : "Get started for free"
-    link : "#"
+    label : "Sponsor Tom Kerkhove"
+    link : "https://github.com/sponsors/tomkerkhove"
+    
+premium:
+  name : "Premium Support"
+  price: "$1000"
+  price_per : "month"
+  info : "Best For Professional Support"
+  services:
+  - "Automatic scraping of Azure Monitor"
+  - "Automatic resource discovery in Azure"
+  - "Up to 4 hours of support per month"
+  - "Roadmap Advisor for Promitor via quarterly meetings"
+  button:
+    enable : true
+    label : "Sponsor Tom Kerkhove"
+    link : "https://github.com/sponsors/tomkerkhove"
 
 call_to_action:
   enable : true
