@@ -14,7 +14,6 @@ ID = "88aaa52e-2d14-4e1e-9fff-c9056b36825a"
   publish = "public"
   
   # Default build command.
-  # command = "hugo --gc --themesDir ../.."
   command = "hugo --gc"
 
 [build.environment]
