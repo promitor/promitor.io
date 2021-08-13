@@ -12,7 +12,7 @@ banner:
 ##################### Feature ##########################
 feature:
   enable : true
-  title : "Something You Need To Know"
+  title : "Why Use Promitor?"
   feature_item:
     # feature item loop
     - name : "Clean Code"
