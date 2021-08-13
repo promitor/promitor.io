@@ -1,6 +1,6 @@
 ######################## default configuration ####################
-baseURL = "http://landingpage.promitor.io/"
-title = "Promitor"
+baseURL = "http://examplesite.org/"
+title = "Bigspring Hugo"
 theme = "bigspring"
 # post pagination
 paginate = "3"
