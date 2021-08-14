@@ -3,9 +3,9 @@
 banner:
   title : "Bringing Azure Monitor metrics <br> where you need them"
   image : "images/banner-art.svg"
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque <br> totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus"
+  content : "Ever needed those Azure Monitor metrics outside of Azure? We are here to help."
   button:
-    enable : true
+    enable : false
     label : "Contact Us"
     link : "contact"
 
@@ -17,22 +17,22 @@ feature:
     # feature item loop
     - name : "Metrics-as-Code"
       icon : "fas fa-code"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      content : "Easy to declare metrics to scrape via metrics-as-code"
       
     # feature item loop
     - name : "Resource Discovery"
       icon : "fas fa-object-group"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      content : "Automatically discover Azure resources at-scale to scrape metrics for in your Azure subscriptions"
       
     # feature item loop
     - name : "Multiple Metric Sinks"
       icon : "fas fa-cloud"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      content : "Automatically pushes metrics to systems such as Atlassian Statuspage, Prometheus and StatsD"
       
     # feature item loop
     - name : "Container & Kubernetes-Friendly"
       icon : "fas fa-user-clock"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      content : "Easily deployable via Docker and optimized for Kubernetes through Helm"
       
     # feature item loop
     - name : "Linux & Windows"
@@ -68,34 +68,14 @@ service:
         link : "#"
         
     # service item loop
-    - title : "It is a privately owned Information and cyber security company"
+    - title : "Promitor in Action"
       images:
-      - "images/service-1.png"
-      content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
-      button:
-        enable : true
-        label : "Check it out"
-        link : "#"
-        
-    # service item loop
-    - title : "It’s a team of experienced and skilled people with distributions"
-      images:
-      - "images/service-2.png"
-      content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
-      button:
-        enable : true
-        label : "Check it out"
-        link : "#"
-        
-    # service item loop
-    - title : "A company standing different from others"
-      images:
-      - "images/service-3.png"
-      content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
-      button:
-        enable : true
-        label : "Check it out"
-        link : "#"
+      - "images/end-users/adobe.png"
+      - "images/end-users/walmart-labs.png"
+      - "images/end-users/resdiary.png"
+      - "images/end-users/trynz.png"
+      - "images/end-users/vsoft.png"
+      content : "These companies are using Promitor successfully in production to bring their metrics where they need them."
         
 ################### Screenshot ########################
 screenshot:
@@ -106,13 +86,13 @@ screenshot:
   
 
 ##################### Call to action #####################
-call_to_action:
-  enable : true
-  title : "Ready to get started?"
-  image : "images/cta.svg"
-  content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur."
-  button:
-    enable : true
-    label : "Contact Us"
-    link : "contact"
+# call_to_action:
+#   enable : true
+#   title : "Ready to get started?"
+#   image : "images/cta.svg"
+#   content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur."
+#   button:
+#     enable : true
+#     label : "Contact Us"
+#     link : "contact"
 ---
