@@ -5,8 +5,8 @@ title = "Promitor"
 contentDir = "content/english" # content/english
 weight = 1
 ########### footer content ##########
-footer_menu_left = "Company"
-footer_menu_middle = "Product"
+footer_menu_left = "Product"
+footer_menu_middle = "Documentation"
 footer_menu_right = "Support"
 footer_content = "Bringing Azure Monitor metrics where you need them."
 # copyright

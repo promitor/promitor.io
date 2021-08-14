@@ -16,8 +16,8 @@ preloader = "" # use jpg, png, svg or gif format.
 # Navigation buttons
 [navigation_button]
 enable = true
-label = "Docs"
-link = "https://promitor.io"
+label = "Changelog"
+link = "https://changelog.promitor.io"
 
 # cookies
 [cookies]
@@ -27,11 +27,6 @@ content = "This site uses cookies. By continuing to use this website, you agree 
 button = "I Accept"
   
 ############################# social site ########################
-# [[social]]
-# title = "facebook"
-# icon = "fab fa-facebook" # themify icon : https://themify.me/themify-icons
-# link = "#"
-
 [[social]]
 title = "twitter"
 icon = "fab fa-twitter" # themify icon : https://themify.me/themify-icons
@@ -41,8 +36,3 @@ link = "https://twitter.com/promitorio"
 title = "github"
 icon = "fab fa-github" # themify icon : https://themify.me/themify-icons
 link = "https://github.com/tomkerkhove/promitor"
-
-# [[social]]
-# title = "linkedin"
-# icon = "fab fa-linkedin" # themify icon : https://themify.me/themify-icons
-# link = "#"
