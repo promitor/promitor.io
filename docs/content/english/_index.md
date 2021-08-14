@@ -15,33 +15,38 @@ feature:
   title : "Why Use Promitor?"
   feature_item:
     # feature item loop
-    - name : "Clean Code"
+    - name : "Metrics-as-Code"
       icon : "fas fa-code"
       content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
       
     # feature item loop
-    - name : "Object Oriented"
+    - name : "Resource Discovery"
       icon : "fas fa-object-group"
       content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
       
     # feature item loop
-    - name : "24h Service"
+    - name : "Multiple Metric Sinks"
+      icon : "fas fa-cloud"
+      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      
+    # feature item loop
+    - name : "Container & Kubernetes-Friendly"
       icon : "fas fa-user-clock"
       content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
       
     # feature item loop
-    - name : "Value For Money"
-      icon : "fas fa-heart"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-      
-    # feature item loop
-    - name : "Faster Response"
+    - name : "Linux & Windows"
       icon : "fas fa-tachometer-alt"
       content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
       
     # feature item loop
-    - name : "Cloud Support"
+    - name : "Any Azure Cloud Support"
       icon : "fas fa-cloud"
+      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      
+    # feature item loop
+    - name : "Open-Source"
+      icon : "fas fa-heart"
       content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
       
 
