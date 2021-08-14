@@ -5,29 +5,29 @@ url = "/"
 weight = 1
 
 [[main]]
-name = "Documentation"
-url = "https://promitor.io/"
+name = "Concepts"
+url = "concepts"
 weight = 2
+
+[[main]]
+name = "Docs"
+url = "https://promitor.io/"
+weight = 3
 
 [[main]]
 name = "Pricing"
 url = "pricing"
-weight = 3
-
-[[main]]
-name = "Contact"
-url = "contact"
 weight = 4
 
 [[main]]
 name = "FAQ"
 url = "faq"
-weight = 5
+weight = 6
 
 [[main]]
 name = "GitHub"
 url = "https://github.com/tomkerkhove/promitor"
-weight = 6
+weight = 7
 
 # footer menu left
 [[footer_left]]
@@ -45,25 +45,29 @@ url = "https://github.com/tomkerkhove/promitor"
 
 # footer menu middle
 [[footer_middle]]
-name = "Metrics"
-url = "pricing"
+name = "Supported Azure Services"
+url = "https://promitor.io/configuration/v2.x/metrics/"
+weight = 1
+
+[[footer_middle]]
+name = "Metric Sinks"
+url = "https://promitor.io/configuration/v2.x/runtime/scraper#metric-sinks"
+weight = 2
+
 [[footer_middle]]
 name = "Deployment"
-url = "pricing"
-[[footer_middle]]
-name = "Configuration"
-url = "pricing"
-[[footer_middle]]
-name = "Security"
-url = "pricing"
+url = "https://promitor.io/deployment"
+weight = 3
 
 [[footer_middle]]
 name = "Operations"
-url = "#"
+url = "https://promitor.io/operations"
+weight = 4
 
 [[footer_middle]]
-name = "Walkthroughs"
-url = "#"
+name = "Security"
+url = "https://promitor.io/configuration/v2.x/azure-authentication"
+weight = 5
 
 # footer menu right
 [[footer_right]]
@@ -82,6 +86,11 @@ url = "pricing"
 weight = 3
 
 [[footer_right]]
+name = "Contact"
+url = "contact"
+weight = 4
+
+[[footer_right]]
 name = "FAQ"
 url = "faq"
-weight = 4
+weight = 5
