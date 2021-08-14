@@ -5,61 +5,87 @@ url = "/"
 weight = 1
 
 [[main]]
-name = "Blog"
-url = "blog"
+name = "Concepts"
+url = "concepts"
 weight = 2
+
+[[main]]
+name = "Docs"
+url = "https://promitor.io/"
+weight = 3
 
 [[main]]
 name = "Pricing"
 url = "pricing"
-weight = 3
+weight = 4
 
 [[main]]
-name = "Contact"
-url = "contact"
-weight = 4
+name = "GitHub"
+url = "https://github.com/tomkerkhove/promitor"
+weight = 5
 
 [[main]]
 name = "FAQ"
 url = "faq"
-weight = 5
+weight = 6
 
 # footer menu left
 [[footer_left]]
-name = "About Us"
-url = "#"
-
-[[footer_left]]
-name = "Quick Start"
-url = "#"
+name = "Changelog"
+url = "https://changelog.promitor.io/"
 
 [[footer_left]]
 name = "Pricing"
 url = "pricing"
+
+[[footer_left]]
+name = "GitHub"
+url = "https://github.com/tomkerkhove/promitor"
 
 
 # footer menu middle
 [[footer_middle]]
-name = "Pricing"
-url = "pricing"
+name = "Supported Azure Services"
+url = "https://promitor.io/configuration/v2.x/metrics/"
+weight = 1
 
 [[footer_middle]]
-name = "Platform"
-url = "#"
+name = "Metric Sinks"
+url = "https://promitor.io/configuration/v2.x/runtime/scraper#metric-sinks"
+weight = 2
 
 [[footer_middle]]
-name = "Features"
-url = "#"
+name = "Deployment"
+url = "https://promitor.io/deployment"
+weight = 3
+
+[[footer_middle]]
+name = "Operations"
+url = "https://promitor.io/operations"
+weight = 4
+
+[[footer_middle]]
+name = "Security"
+url = "https://promitor.io/configuration/v2.x/azure-authentication"
+weight = 5
 
 # footer menu right
 [[footer_right]]
-name = "Privacy Policy"
-url = "privacy-policy"
+name = "Support Policy"
+url = "https://github.com/tomkerkhove/promitor/blob/master/SUPPORT.md"
+weight = 1
 
 [[footer_right]]
-name = "Terms & Conditions"
-url = "terms-conditions"
+name = "Report An Issue"
+url = "https://github.com/tomkerkhove/promitor/issues/new/choose"
+weight = 2
+
+[[footer_right]]
+name = "Get Support"
+url = "pricing"
+weight = 3
 
 [[footer_right]]
 name = "FAQ"
 url = "faq"
+weight = 4

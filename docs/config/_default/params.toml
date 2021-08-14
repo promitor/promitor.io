@@ -3,7 +3,7 @@ logo = "images/logo.png"
 logo_width = "200px"
 # OpenGraph / Twitter Card metadata
 description = "This is meta description"
-author = "Themefisher"
+author = "Tom Kerkhove"
 image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
@@ -16,8 +16,8 @@ preloader = "" # use jpg, png, svg or gif format.
 # Navigation buttons
 [navigation_button]
 enable = true
-label = "Get Started"
-link = "contact"
+label = "Changelog"
+link = "https://changelog.promitor.io"
 
 # cookies
 [cookies]
@@ -28,21 +28,11 @@ button = "I Accept"
   
 ############################# social site ########################
 [[social]]
-title = "facebook"
-icon = "fab fa-facebook" # themify icon : https://themify.me/themify-icons
-link = "#"
-
-[[social]]
 title = "twitter"
 icon = "fab fa-twitter" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "https://twitter.com/promitorio"
 
 [[social]]
-title = "skype"
-icon = "fab fa-skype" # themify icon : https://themify.me/themify-icons
-link = "#"
-
-[[social]]
-title = "linkedin"
-icon = "fab fa-linkedin" # themify icon : https://themify.me/themify-icons
-link = "#"
+title = "github"
+icon = "fab fa-github" # themify icon : https://themify.me/themify-icons
+link = "https://github.com/tomkerkhove/promitor"
