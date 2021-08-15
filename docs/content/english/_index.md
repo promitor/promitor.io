@@ -12,42 +12,47 @@ banner:
 ##################### Feature ##########################
 feature:
   enable : true
-  title : "Why Use Promitor?"
+  title : "How Does Promitor Help?"
   feature_item:
     # feature item loop
     - name : "Metrics-as-Code"
       icon : "fas fa-code"
       content : "Easy to declare metrics to scrape via metrics-as-code"
+
+    # feature item loop
+    - name : "Any Azure Services"
+      icon : "fas fa-cogs"
+      content : "Easy to scrapy any Azure service through one of our convenient scrapers or our Generic scraper."
       
     # feature item loop
     - name : "Resource Discovery"
-      icon : "fas fa-object-group"
+      icon : "fas fa-satellite"
       content : "Automatically discover Azure resources at-scale to scrape metrics for in your Azure subscriptions"
       
     # feature item loop
     - name : "Multiple Metric Sinks"
-      icon : "fas fa-cloud"
+      icon : "fas fa-chart-area"
       content : "Automatically pushes metrics to systems such as Atlassian Statuspage, Prometheus and StatsD"
       
     # feature item loop
-    - name : "Container & Kubernetes-Friendly"
-      icon : "fas fa-user-clock"
-      content : "Easily deployable via Docker and optimized for Kubernetes through Helm"
+    - name : "Easy to Deploy"
+      icon : "fas fa-cubes"
+      content : "Easily deploy agents as containers on any container platform, but optimized for Kubernetes"
       
     # feature item loop
-    - name : "Linux & Windows"
-      icon : "fas fa-tachometer-alt"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-      
-    # feature item loop
-    - name : "Any Azure Cloud Support"
+    - name : "Any Azure Cloud"
       icon : "fas fa-cloud"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      content : "Scrape resources in any Azure cloud, including sovereign clouds<br/>*(US Gov, Germany, China)*"
       
     # feature item loop
     - name : "Open-Source"
       icon : "fas fa-heart"
-      content : "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      content : "Promitor is free and open-source with best-effort support"
+      
+    # feature item loop
+    - name : "Linux & Windows"
+      icon : "fab fa-linux"
+      content : "Support for running Promitor agents on Linux or Windows"
       
 
 
@@ -78,21 +83,19 @@ service:
       content : "These companies are using Promitor successfully in production to bring their metrics where they need them."
         
 ################### Screenshot ########################
-screenshot:
-  enable : true
-  title : "Experience the best <br> workflow with us"
-  image : "images/screenshot.svg"
-
-  
+# screenshot:
+#   enable : true
+#   title : "Experience the best <br> workflow with us"
+#   image : "images/screenshot.svg"
 
 ##################### Call to action #####################
 # call_to_action:
 #   enable : true
 #   title : "Ready to get started?"
-#   image : "images/cta.svg"
-#   content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur."
+#   image : "images/logo.svg"
+#   content : "Do you want to give Promitor a try?"
 #   button:
 #     enable : true
-#     label : "Contact Us"
-#     link : "contact"
+#     label : "Get Started"
+#     link : "get-started"
 ---
