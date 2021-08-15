@@ -29,6 +29,11 @@ name = "FAQ"
 url = "faq"
 weight = 6
 
+[[main]]
+name = "Changelog"
+url = "https://changelog.promitor.io/"
+weight = 7
+
 # footer menu left
 [[footer_left]]
 name = "Changelog"
