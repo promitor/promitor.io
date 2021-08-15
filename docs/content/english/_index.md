@@ -68,7 +68,7 @@ service:
         link : "#"
         
     # service item loop
-    - title : "Promitor in Action"
+    - title : "Trusted By Others"
       images:
       - "images/end-users/adobe.png"
       - "images/end-users/walmart-labs.png"
