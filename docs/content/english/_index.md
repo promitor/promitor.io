@@ -56,16 +56,16 @@ service:
   enable : true
   service_item:
     # service item loop
-    - title : "It is the most advanced digital marketing and it company."
+    - title : "Use your metrics anywhere"
       images:
-      - "images/service-1.png"
-      - "images/service-2.png"
-      - "images/service-3.png"
-      content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+      - "images/sinks/prometheus.png"
+      - "images/sinks/statsd.png"
+      - "images/sinks/atlassian-statuspage.png"
+      content : "Bring your Azure Monitor metrics where you need them the most, without all the friction. Easily configure what metrics you need and send them to one or more of our metric sinks in minutes.<br/><br/>Not seeing what you need? [Let us know](https://github.com/tomkerkhove/promitor/issues/new)!"
       button:
         enable : true
         label : "Check it out"
-        link : "#"
+        link : "https://promitor.io/configuration/v2.x/runtime/scraper#metric-sinks"
         
     # service item loop
     - title : "Trusted By Others"
