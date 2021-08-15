@@ -14,10 +14,10 @@ name = "Docs"
 url = "https://promitor.io/"
 weight = 3
 
-[[main]]
-name = "Pricing"
-url = "pricing"
-weight = 4
+# [[main]]
+# name = "Pricing"
+# url = "pricing"
+# weight = 4
 
 [[main]]
 name = "GitHub"
@@ -34,9 +34,9 @@ weight = 6
 name = "Changelog"
 url = "https://changelog.promitor.io/"
 
-[[footer_left]]
-name = "Pricing"
-url = "pricing"
+# [[footer_left]]
+# name = "Pricing"
+# url = "pricing"
 
 [[footer_left]]
 name = "GitHub"
@@ -80,10 +80,10 @@ name = "Report An Issue"
 url = "https://github.com/tomkerkhove/promitor/issues/new/choose"
 weight = 2
 
-[[footer_right]]
-name = "Get Support"
-url = "pricing"
-weight = 3
+# [[footer_right]]
+# name = "Get Support"
+# url = "pricing"
+# weight = 3
 
 [[footer_right]]
 name = "FAQ"
