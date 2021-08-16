@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://staging.promitor.io/"
+baseURL = "https://promitor.io/"
 title = "Promitor"
 theme = "bigspring"
 # post pagination
