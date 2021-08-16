@@ -9,20 +9,15 @@ name = "Concepts"
 url = "concepts"
 weight = 2
 
-[[main]]
-name = "Docs"
-url = "https://promitor.io/"
-weight = 3
+# [[main]]
+# name = "Docs"
+# url = "https://promitor.io/"
+# weight = 3
 
 # [[main]]
 # name = "Pricing"
 # url = "pricing"
 # weight = 4
-
-[[main]]
-name = "GitHub"
-url = "https://github.com/tomkerkhove/promitor"
-weight = 5
 
 [[main]]
 name = "FAQ"
@@ -33,6 +28,11 @@ weight = 6
 name = "Changelog"
 url = "https://changelog.promitor.io/"
 weight = 7
+
+[[main]]
+name = "GitHub"
+url = "https://github.com/tomkerkhove/promitor"
+weight = 8
 
 # footer menu left
 [[footer_left]]
