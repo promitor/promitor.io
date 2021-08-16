@@ -11,7 +11,7 @@ weight = 2
 
 # [[main]]
 # name = "Docs"
-# url = "https://promitor.io/"
+# url = "https://docs.promitor.io/"
 # weight = 3
 
 # [[main]]
@@ -51,27 +51,27 @@ url = "https://github.com/tomkerkhove/promitor"
 # footer menu middle
 [[footer_middle]]
 name = "Supported Azure Services"
-url = "https://promitor.io/configuration/v2.x/metrics/"
+url = "https://docs.promitor.io/configuration/v2.x/metrics/"
 weight = 1
 
 [[footer_middle]]
 name = "Metric Sinks"
-url = "https://promitor.io/configuration/v2.x/runtime/scraper#metric-sinks"
+url = "https://docs.promitor.io/configuration/v2.x/runtime/scraper#metric-sinks"
 weight = 2
 
 [[footer_middle]]
 name = "Deployment"
-url = "https://promitor.io/deployment"
+url = "https://docs.promitor.io/deployment"
 weight = 3
 
 [[footer_middle]]
 name = "Operations"
-url = "https://promitor.io/operations"
+url = "https://docs.promitor.io/operations"
 weight = 4
 
 [[footer_middle]]
 name = "Security"
-url = "https://promitor.io/configuration/v2.x/azure-authentication"
+url = "https://docs.promitor.io/configuration/v2.x/azure-authentication"
 weight = 5
 
 # footer menu right
