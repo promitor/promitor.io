@@ -22,7 +22,7 @@ feature:
     # feature item loop
     - name : "Any Azure Services"
       icon : "fas fa-cogs"
-      content : "Easy to scrapy any Azure service through one of our convenient scrapers or our Generic scraper."
+      content : "Easy to scrape any Azure service through one of our convenient scrapers or our Generic scraper."
       
     # feature item loop
     - name : "Resource Discovery"
