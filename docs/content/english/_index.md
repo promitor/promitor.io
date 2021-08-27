@@ -76,8 +76,10 @@ service:
     - title : "Trusted By Others"
       images:
       - "images/end-users/adobe.png"
+      - "images/end-users/albert-heijn.png"
       - "images/end-users/walmart-labs.png"
       - "images/end-users/resdiary.png"
+      - "images/end-users/bryte-blue.png"
       - "images/end-users/trynz.png"
       - "images/end-users/vsoft.png"
       content : "These companies are using Promitor successfully in production to bring their metrics where they need them."
