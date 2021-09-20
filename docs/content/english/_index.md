@@ -23,37 +23,37 @@ feature:
     - name : "Any Azure Services"
       icon : "fas fa-cogs"
       content : "Easy to scrape any Azure service through one of our convenient scrapers or our Generic scraper."
-      
+
     # feature item loop
     - name : "Resource Discovery"
       icon : "fas fa-satellite"
       content : "Automatically discover Azure resources at-scale to scrape metrics for in your Azure subscriptions"
-      
+
     # feature item loop
     - name : "Multiple Metric Sinks"
       icon : "fas fa-chart-area"
       content : "Automatically pushes metrics to systems such as Atlassian Statuspage, Prometheus and StatsD"
-      
+
     # feature item loop
     - name : "Easy to Deploy"
       icon : "fas fa-cubes"
       content : "Easily deploy agents as containers on any container platform, but optimized for Kubernetes"
-      
+
     # feature item loop
     - name : "Any Azure Cloud"
       icon : "fas fa-cloud"
       content : "Scrape resources in any Azure cloud, including sovereign clouds<br/>*(US Gov, Germany, China)*"
-      
+
     # feature item loop
     - name : "Open-Source"
       icon : "fas fa-heart"
       content : "Promitor is free and open-source with best-effort support"
-      
+
     # feature item loop
     - name : "Linux & Windows"
       icon : "fab fa-linux"
       content : "Support for running Promitor agents on Linux or Windows"
-      
+
 
 
 ######################### Service #####################
@@ -71,7 +71,7 @@ service:
         enable : true
         label : "Check it out"
         link : "https://docs.promitor.io/configuration/v2.x/runtime/scraper#metric-sinks"
-        
+
     # service item loop
     - title : "Trusted By Others"
       images:
@@ -80,10 +80,11 @@ service:
       - "images/end-users/walmart-labs.png"
       - "images/end-users/resdiary.png"
       - "images/end-users/bryte-blue.png"
+      - "images/end-users/ttd-logo.png"
       - "images/end-users/trynz.png"
       - "images/end-users/vsoft.png"
       content : "These companies are using Promitor successfully in production to bring their metrics where they need them."
-        
+
 ################### Screenshot ########################
 # screenshot:
 #   enable : true
