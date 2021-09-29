@@ -85,6 +85,12 @@ service:
       - "images/end-users/vsoft.png"
       content : "These companies are using Promitor successfully in production to bring their metrics where they need them."
 
+    # service item loop
+    - title : "Supported by Microsoft"
+      images:
+      - "images/microsoft.png"
+      content : "We are proud to be supported by Microsoft!<br/><br/>They provide Azure credits through their [open-source program](https://opensource.microsoft.com/azure-credits) that allows us to automatically test and verify the quality of Promitor.<br/><br/>Thanks to this program, we can keep offering Promitor for free."
+
 ################### Screenshot ########################
 # screenshot:
 #   enable : true
