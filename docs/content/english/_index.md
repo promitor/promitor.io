@@ -32,7 +32,7 @@ feature:
     # feature item loop
     - name : "Multiple Metric Sinks"
       icon : "fas fa-chart-area"
-      content : "Automatically pushes metrics to systems such as Atlassian Statuspage, Prometheus and StatsD"
+      content : "Automatically makes metrics available in systems such as Atlassian Statuspage, Prometheus and StatsD"
 
     # feature item loop
     - name : "Easy to Deploy"
