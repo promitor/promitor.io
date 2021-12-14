@@ -83,6 +83,7 @@ service:
       - "images/end-users/bryte-blue.png"
       - "images/end-users/trynz.png"
       - "images/end-users/vsoft.png"
+      - "images/end-users/adfinis.png"
       content : "These companies are using Promitor successfully in production to bring their metrics where they need them."
 
     # service item loop
