@@ -78,13 +78,14 @@ service:
       - "images/end-users/adfinis.png"
       - "images/end-users/adobe.png"
       - "images/end-users/albert-heijn.png"
+      - "images/end-users/axon.png"
       - "images/end-users/bryte-blue.png"
       - "images/end-users/resdiary.png"
       - "images/end-users/the-trade-desk.png"
       - "images/end-users/trynz.png"
       - "images/end-users/vsoft.png"
       - "images/end-users/walmart-labs.png"
-      content : "These companies are using Promitor successfully in production to bring their metrics where they need them."
+      content : "These companies are using Promitor successfully in production to bring their metrics where they need them.<br/><br/>*Learn more the usage of end-user logos on our [legal page](/legal)*."
 
     # service item loop
     - title : "Supported by Microsoft"
