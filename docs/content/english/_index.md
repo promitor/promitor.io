@@ -64,7 +64,7 @@ service:
     - title : "Use your metrics anywhere"
       images:
       - "images/sinks/prometheus.png"
-      - "images/sinks/statsd.png"
+      - "images/sinks/opentelemetry.png"
       - "images/sinks/statsd.png"
       - "images/sinks/atlassian-statuspage.png"
       content : "Bring your Azure Monitor metrics where you need them the most, without all the friction. Easily configure what metrics you need and send them to one or more of our metric sinks in minutes.<br/><br/>Not seeing what you need? [Let us know](https://github.com/tomkerkhove/promitor/issues/new)!"
