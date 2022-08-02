@@ -7,7 +7,7 @@ draft: false
 ---
 
 **Promitor** is an Azure Monitor scraper which makes the metrics available
-to a variety of metric systems such as Atlassian Statuspage, Prometheus and StatsD.
+to a variety of metric systems such as Atlassian Statuspage, OpenTelemetry, Prometheus and StatsD.
 
 ![Promitor](/images/concepts/high-level.png)
 
