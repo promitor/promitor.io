@@ -81,6 +81,7 @@ service:
       - "images/end-users/albert-heijn.png"
       - "images/end-users/axon.png"
       - "images/end-users/bryte-blue.png"
+      - "images/end-users/grafana-labs.png"
       - "images/end-users/resdiary.png"
       - "images/end-users/the-trade-desk.png"
       - "images/end-users/trynz.png"
