@@ -34,7 +34,7 @@ We support `Global` (default), `China`, `UsGov` & `Germany` Azure clouds.
 
 This can be configured in the metric configuration under `azureMetadata`.
 
-For more information see our ['Metric Configuration' page](https://docs.promitor.io/configuration/v2.x/metrics/#metrics).
+For more information see our ['Metric Configuration' page](https://docs.promitor.io/latest/scraping/overview/#metrics).
 {{</ faq >}}
 
 {{< faq "Why do Azure Blob & File Storage only report account-level information?" >}}

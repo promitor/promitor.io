@@ -55,27 +55,27 @@ url = "legal"
 # footer menu middle
 [[footer_middle]]
 name = "Supported Azure Services"
-url = "https://docs.promitor.io/configuration/v2.x/metrics/"
+url = "https://docs.promitor.io/latest/scraping/overview/"
 weight = 1
 
 [[footer_middle]]
 name = "Metric Sinks"
-url = "https://docs.promitor.io/configuration/v2.x/runtime/scraper#metric-sinks"
+url = "https://docs.promitor.io/latest/scraping/runtime-configuration/#metric-sinks"
 weight = 2
 
 [[footer_middle]]
 name = "Deployment"
-url = "https://docs.promitor.io/deployment"
+url = "https://docs.promitor.io/latest/deployment/"
 weight = 3
 
 [[footer_middle]]
 name = "Operations"
-url = "https://docs.promitor.io/operations"
+url = "https://docs.promitor.io/latest/operations/"
 weight = 4
 
 [[footer_middle]]
 name = "Security"
-url = "https://docs.promitor.io/configuration/v2.x/azure-authentication"
+url = "https://docs.promitor.io/latest/security/azure-authentication/"
 weight = 5
 
 # footer menu right
