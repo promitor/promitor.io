@@ -18,7 +18,7 @@ jobs:
       - name: Link Checker
         uses: lycheeverse/lychee-action@v1.6.1
         with:
-          args: --verbose --exclude 'docs/themes/**/*.md' --no-progress 'docs/**/*.md' --exclude-loopback
+          args: --verbose --no-progress 'docs/**/*.md' --exclude-loopback --exclude 'docs/themes/**/*.md'
           format: markdown
           jobSummary: true
           fail: true
