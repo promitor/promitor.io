@@ -71,7 +71,7 @@ service:
       button:
         enable : true
         label : "Check it out"
-        link : "https://docs.promitor.io/configuration/v2.x/runtime/scraper#metric-sinks"
+        link : "https://docs.promitor.io/latest/scraping/runtime-configuration/#metric-sinks"
 
     # service item loop
     - title : "Trusted By Others"

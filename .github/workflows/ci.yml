@@ -1,0 +1,24 @@
+name: CI
+
+on:
+  push:
+    branches:
+     - main
+  pull_request:
+    branches:
+     - main
+
+jobs:
+  broken_links:
+    name: Detect Broken Links
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v1.6.1
+        with:
+          args: --verbose --no-progress 'docs/**/*.md' --exclude-loopback --exclude 'docs/themes/**/*.md'
+          format: markdown
+          jobSummary: true
+          fail: true
